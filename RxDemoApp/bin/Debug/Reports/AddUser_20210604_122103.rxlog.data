@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.74s"
+		durationms="3744"
+		type="root"
+		rid="7d1b8133e2c3d14"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jason Yamada"
+		rxversion="9.5.2.0"
+		host="JYAMADA-L"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5760x1200"
+		timestamp="6/4/2021 12:21:05 PM"
+		timestampiso="2021-06-04T19:21:05"
+		endtime="6/4/2021 12:21:09 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddUser">
+		<detail>
+			AddUser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.206"
+			timeRelativeToTestModuleStartTime="00:02.206"
+			timeWallClock="12:21:07"
+			time="00:02.206"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>FirstName, LastName, Age, Department, Gender
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.223"
+			timeRelativeToTestModuleStartTime="00:02.223"
+			timeWallClock="12:21:07"
+			time="00:02.223"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'RxMainFrame.RxTabStandard.Gender'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controltext='Male']"
+				itempath="?/?/radiobutton[@controltext=$Gender]"
+				fullname="RxDemoAppRepository.RxMainFrame.RxTabStandard.Gender"
+				id="c46d8aa06e1949358b606dc564c65b2e"
+				timeout="90000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="143"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

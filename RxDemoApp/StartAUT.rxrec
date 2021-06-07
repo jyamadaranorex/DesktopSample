@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3c995a5b-630a-4e21-a90f-534ccbd1a649"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="RxDemoApp">
+	</codegen>
+	<variables>
+		<var
+		id="58b924a1-159f-4456-9132-94a182174a35"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\Jason Yamada\Documents\RxDemoApp\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+		<invokeactionrecorditem
+		action="Select"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f5edb705-be92-4af0-a1d3-0e77273db182">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="154413b4-9f4f-400a-9310-d9e9f9456625"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="dfeeb758-7101-491f-b6fc-e28f8bfb836d">
+			</arguments>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	id="46fd9a90-6dd3-4c1a-ae1b-b573871755bf"
+	name="RxDemoAppRepository"
+	relativepath="RxDemoAppRepository.rxrep">
+		<codegen
+		classname="RxDemoAppRepository"
+		namespace="RxDemoApp">
+		</codegen>
+		<rootfolder
+		id="2487c37c-b1d4-44b6-9ade-c473d35fe1c6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.35s"
+		durationms="7349"
+		type="root"
+		rid="2e0846410841968"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jason Yamada"
+		rxversion="9.5.2.0"
+		host="JYAMADA-L"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5760x1200"
+		timestamp="6/4/2021 12:23:14 PM"
+		timestampiso="2021-06-04T19:23:14"
+		endtime="6/4/2021 12:23:21 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddUser">
+		<detail>
+			AddUser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.192"
+			timeRelativeToTestModuleStartTime="00:02.192"
+			timeWallClock="12:23:16"
+			time="00:02.192"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>FirstName, LastName, Age, Department, Gender
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.207"
+			timeRelativeToTestModuleStartTime="00:02.207"
+			timeWallClock="12:23:16"
+			time="00:02.207"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '$FirstName' on item 'RxMainFrame.RxTabStandard.FirstName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='First name']"
+				itempath="?/?/text[@accessiblename='First name']"
+				fullname="RxDemoAppRepository.RxMainFrame.RxTabStandard.FirstName"
+				id="415ec819b109481e87cf08272645cf84"
+				timeout="90000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="143"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.730"
+			timeRelativeToTestModuleStartTime="00:03.730"
+			timeWallClock="12:23:18"
+			time="00:03.730"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '$LastName' on item 'RxMainFrame.RxTabStandard.LastName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='Last name']"
+				itempath="?/?/text[@accessiblename='Last name']"
+				fullname="RxDemoAppRepository.RxMainFrame.RxTabStandard.LastName"
+				id="a2604c9fce144cc59bd4e0de173b9da6"
+				timeout="90000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="146"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.437"
+			timeRelativeToTestModuleStartTime="00:04.437"
+			timeWallClock="12:23:18"
+			time="00:04.437"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.Open' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/button[@accessiblename='Open']"
+				itempath="?/?/button[@accessiblename='Open']"
+				fullname="RxDemoAppRepository.RxMainFrame.RxTabStandard.Open"
+				id="9972df424916430288ef1c65e670e548"
+				timeout="90000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="149"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.233"
+			timeRelativeToTestModuleStartTime="00:05.233"
+			timeWallClock="12:23:19"
+			time="00:05.233"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'List1000.Department'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@text='Office']"
+				itempath="listitem[@text=$Department]"
+				fullname="RxDemoAppRepository.List1000.Department"
+				id="ed7edacc0b3444a69bab3a5ea556b1e6"
+				timeout="60000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="152"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.356"
+			timeRelativeToTestModuleStartTime="00:05.356"
+			timeWallClock="12:23:19"
+			time="00:05.356"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '$Age' on item 'RxMainFrame.RxTabStandard.Age'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@controlname='upDownEdit']"
+				itempath="?/?/text[@controlname='upDownEdit']"
+				fullname="RxDemoAppRepository.RxMainFrame.RxTabStandard.Age"
+				id="5268613a48354c6e83e77b95234b35a1"
+				timeout="90000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="155"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.063"
+			timeRelativeToTestModuleStartTime="00:06.063"
+			timeWallClock="12:23:20"
+			time="00:06.063"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'RxMainFrame.RxTabStandard.Gender'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controltext='Male']"
+				itempath="?/?/radiobutton[@controltext=$Gender]"
+				fullname="RxDemoAppRepository.RxMainFrame.RxTabStandard.Gender"
+				id="c46d8aa06e1949358b606dc564c65b2e"
+				timeout="90000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="158"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.835"
+			timeRelativeToTestModuleStartTime="00:06.835"
+			timeWallClock="12:23:21"
+			time="00:06.835"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.BtnAddPerson' at 17;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']"
+				itempath="button[@controlname='btnAddPerson']"
+				fullname="RxDemoAppRepository.RxMainFrame.RxTabStandard.BtnAddPerson"
+				id="97274145d7924de18f17ed411d87d07e"
+				timeout="90000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\AddUser.cs"
+				codeline="161"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

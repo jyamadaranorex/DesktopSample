@@ -1,0 +1,10 @@
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\bin\Debug\RxDemoApp.rxtmg
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\bin\Debug\RxDemoApp.rxtst
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\bin\Debug\RxDemoApp.exe.config
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\bin\Debug\RxDemoApp.xml
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\bin\Debug\RxDemoApp.exe
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\bin\Debug\RxDemoApp.pdb
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\obj\x86\Debug\RxDemoApp.csprojResolveAssemblyReference.cache
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\obj\x86\Debug\RxDemoApp.exe
+C:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RxDemoApp\obj\x86\Debug\RxDemoApp.pdb
