@@ -1,0 +1,2 @@
+# DesktopSample
+Ranorex Sample Desktop
