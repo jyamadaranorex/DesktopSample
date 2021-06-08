@@ -191,6 +191,11 @@
             The List1000 folder.
             </summary>
         </member>
+        <member name="P:RxDemoApp.RxDemoAppRepository.RanorexVIPDatabaseTestWebApplicatio">
+            <summary>
+            The RanorexVIPDatabaseTestWebApplicatio folder.
+            </summary>
+        </member>
         <member name="T:RxDemoApp.RxDemoAppRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -369,6 +374,26 @@
         <member name="P:RxDemoApp.RxDemoAppRepositoryFolders.List1000AppFolder.DepartmentInfo">
             <summary>
             The Department item info.
+            </summary>
+        </member>
+        <member name="T:RxDemoApp.RxDemoAppRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder">
+            <summary>
+            The RanorexVIPDatabaseTestWebApplicatioAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RxDemoApp.RxDemoAppRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RanorexVIPDatabaseTestWebApplicatio  folder.
+            </summary>
+        </member>
+        <member name="P:RxDemoApp.RxDemoAppRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RxDemoApp.RxDemoAppRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
             </summary>
         </member>
         <member name="T:RxDemoApp.StartAUT">

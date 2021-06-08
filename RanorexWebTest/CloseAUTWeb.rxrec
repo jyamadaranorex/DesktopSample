@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="2be58f21-642a-43a0-8ca6-3e194af59e8f"
-mode="Desktop">
+id="a7aed1a1-5166-420f-a4b7-d2bb32373ff0"
+mode="Global">
 	<repeatcount>
 		1
 	</repeatcount>
@@ -19,34 +19,25 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CloseAUT"
-	namespace="RxDemoApp">
+	classname="CloseAUTWeb"
+	namespace="RanorexWebTest">
 	</codegen>
 	<variables>
-		<var
-		id="014cb52a-7218-4ea4-8f4e-fb44f178a67f"
-		name="CloseAutProcessIDVar">
-			-1
-		</var>
 	</variables>
 	<recorditems>
 		<closeapprecorditem
 		enabled="True"
-		graceperiod="100ms"
-		method="CloseWindowByProcessID"
+		graceperiod="0ms"
+		method="CloseWindow"
 		optional="False"
-		searchpropertyid="2e02064e-3c5a-4073-9672-ab524a2776c9">
+		searchpropertyid="3b290db6-5ace-49ab-91ab-341908733f8d">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="ProcessID"
-				variable="CloseAutProcessIDVar">
-				</binding>
 			</bindings>
 			<info
-			id="e7660464-e055-4706-948e-af47fc67b476"
-			sourcename="ItemRecorderEditor">
+			id="ba550f2b-5c46-4598-b6eb-8cc4615a81bc"
+			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='www.ranorex.com']
 				</path>
@@ -56,21 +47,21 @@ mode="Desktop">
 		</closeapprecorditem>
 	</recorditems>
 	<repository
-	id="46fd9a90-6dd3-4c1a-ae1b-b573871755bf"
-	name="RxDemoAppRepository"
-	relativepath="RxDemoAppRepository.rxrep">
+	id="1ac34ee7-c127-4c67-bb5f-b77d759b6432"
+	name="RanorexWebTestRepository"
+	relativepath="RanorexWebTestRepository.rxrep">
 		<codegen
-		classname="RxDemoAppRepository"
-		namespace="RxDemoApp">
+		classname="RanorexWebTestRepository"
+		namespace="RanorexWebTest">
 		</codegen>
 		<rootfolder
-		id="2487c37c-b1d4-44b6-9ade-c473d35fe1c6"
+		id="6c82bfce-69ec-4fd2-92a3-2b7e1f8983e0"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CloseAUT.UserCode.cs
+		CloseAUTWeb.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

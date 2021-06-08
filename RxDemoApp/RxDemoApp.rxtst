@@ -50,12 +50,6 @@
 					</param>
 				</parameters>
 			</testcase>
-			<testmodule
-			id="761ee88b-8eea-444a-a12c-15fb0196c79d"
-			name="AddUser"
-			ref="7052a869-7527-47b2-bc06-7defc21e11f9"
-			type="Recording">
-			</testmodule>
 			<setup
 			id="8d0af006-8089-4408-b1b8-1582f98bb973"
 			name="setup">
@@ -175,10 +169,6 @@
 							<testmodule
 							id="fc870181-5938-465b-8100-75453d18aa9c"
 							name="ValidateEntry">
-							</testmodule>
-							<testmodule
-							id="761ee88b-8eea-444a-a12c-15fb0196c79d"
-							name="AddUser">
 							</testmodule>
 						</smartfoldernode>
 						<teardown

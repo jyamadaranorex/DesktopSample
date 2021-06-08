@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ea151795-03f6-4734-931a-6e3c458162fe"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartUATWeb"
+	namespace="RanorexWebTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com/web-testing-examples/vip/&#32;
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="1ac34ee7-c127-4c67-bb5f-b77d759b6432"
+	name="RanorexWebTestRepository"
+	relativepath="RanorexWebTestRepository.rxrep">
+		<codegen
+		classname="RanorexWebTestRepository"
+		namespace="RanorexWebTest">
+		</codegen>
+		<rootfolder
+		id="6c82bfce-69ec-4fd2-92a3-2b7e1f8983e0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartUATWeb.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

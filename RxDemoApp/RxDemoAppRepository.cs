@@ -29,6 +29,7 @@ namespace RxDemoApp
         static RxDemoAppRepository instance = new RxDemoAppRepository();
         RxDemoAppRepositoryFolders.RxMainFrameAppFolder _rxmainframe;
         RxDemoAppRepositoryFolders.List1000AppFolder _list1000;
+        RxDemoAppRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder _ranorexvipdatabasetestwebapplicatio;
 
         /// <summary>
         /// Gets the singleton class instance representing the RxDemoAppRepository element repository.
@@ -47,6 +48,7 @@ namespace RxDemoApp
         {
             _rxmainframe = new RxDemoAppRepositoryFolders.RxMainFrameAppFolder(this);
             _list1000 = new RxDemoAppRepositoryFolders.List1000AppFolder(this);
+            _ranorexvipdatabasetestwebapplicatio = new RxDemoAppRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder(this);
         }
 
 #region Variables
@@ -105,6 +107,15 @@ namespace RxDemoApp
         public virtual RxDemoAppRepositoryFolders.List1000AppFolder List1000
         {
             get { return _list1000; }
+        }
+
+        /// <summary>
+        /// The RanorexVIPDatabaseTestWebApplicatio folder.
+        /// </summary>
+        [RepositoryFolder("e7660464-e055-4706-948e-af47fc67b476")]
+        public virtual RxDemoAppRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder RanorexVIPDatabaseTestWebApplicatio
+        {
+            get { return _ranorexvipdatabasetestwebapplicatio; }
         }
     }
 
@@ -527,6 +538,46 @@ namespace RxDemoApp
                 get
                 {
                     return _departmentInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The RanorexVIPDatabaseTestWebApplicatioAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e7660464-e055-4706-948e-af47fc67b476")]
+        public partial class RanorexVIPDatabaseTestWebApplicatioAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new RanorexVIPDatabaseTestWebApplicatio  folder.
+            /// </summary>
+            public RanorexVIPDatabaseTestWebApplicatioAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RanorexVIPDatabaseTestWebApplicatio", "/dom[@domain='https://www.ranorex.com/web-testing-examples/vip/']", parentFolder, 30000, null, false, "e7660464-e055-4706-948e-af47fc67b476", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e7660464-e055-4706-948e-af47fc67b476")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e7660464-e055-4706-948e-af47fc67b476")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

@@ -20,51 +20,38 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace RxDemoApp
+namespace RanorexWebTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CloseAUT recording.
+    ///The CloseAUTWeb recording.
     /// </summary>
-    [TestModule("2be58f21-642a-43a0-8ca6-3e194af59e8f", ModuleType.Recording, 1)]
-    public partial class CloseAUT : ITestModule
+    [TestModule("a7aed1a1-5166-420f-a4b7-d2bb32373ff0", ModuleType.Recording, 1)]
+    public partial class CloseAUTWeb : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the RxDemoAppRepository repository.
+        /// Holds an instance of the RanorexWebTestRepository repository.
         /// </summary>
-        public static RxDemoAppRepository repo = RxDemoAppRepository.Instance;
+        public static RanorexWebTestRepository repo = RanorexWebTestRepository.Instance;
 
-        static CloseAUT instance = new CloseAUT();
+        static CloseAUTWeb instance = new CloseAUTWeb();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CloseAUT()
+        public CloseAUTWeb()
         {
-            CloseAutProcessIDVar = "-1";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CloseAUT Instance
+        public static CloseAUTWeb Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _CloseAutProcessIDVar;
-
-        /// <summary>
-        /// Gets or sets the value of variable CloseAutProcessIDVar.
-        /// </summary>
-        [TestVariable("014cb52a-7218-4ea4-8f4e-fb44f178a67f")]
-        public string CloseAutProcessIDVar
-        {
-            get { return _CloseAutProcessIDVar; }
-            set { _CloseAutProcessIDVar = value; }
-        }
 
 #endregion
 
@@ -92,8 +79,8 @@ namespace RxDemoApp
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application with Process ID bound to variable $CloseAutProcessIDVar.", repo.RanorexVIPDatabaseTestWebApplicatio.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(int.Parse(CloseAutProcessIDVar), 100);
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
+            Host.Current.CloseApplication(repo.ApplicationUnderTest.Self, new Duration(0));
             Delay.Milliseconds(0);
             
         }
