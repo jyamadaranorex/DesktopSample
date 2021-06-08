@@ -50,6 +50,12 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="7ac35d37-731b-4874-9574-39e2e69c7ff5"
+			name="ValidateEntry"
+			ref="82a657f3-8e12-4906-827e-452661ae3959"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="8d0af006-8089-4408-b1b8-1582f98bb973"
 			name="setup">
@@ -177,6 +183,10 @@
 							<testmodule
 							id="9577ea7e-7509-480f-8ef1-00a34e59eca7"
 							name="DeleteEntry">
+							</testmodule>
+							<testmodule
+							id="7ac35d37-731b-4874-9574-39e2e69c7ff5"
+							name="ValidateEntry">
 							</testmodule>
 							<testmodule
 							id="a1ec2012-8df8-409c-8aba-6babfd0bd154"
