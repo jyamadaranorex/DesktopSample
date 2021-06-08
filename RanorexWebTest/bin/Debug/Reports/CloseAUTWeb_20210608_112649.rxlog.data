@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.89s"
+		durationms="9892"
+		type="root"
+		rid="da608acd0477ec4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jason Yamada"
+		rxversion="9.5.2.0"
+		host="JYAMADA-L"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5760x1200"
+		timestamp="6/8/2021 11:26:51 AM"
+		timestampiso="2021-06-08T18:26:51"
+		endtime="6/8/2021 11:27:01 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseAUTWeb">
+		<detail>
+			CloseAUTWeb
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.192"
+			timeRelativeToTestModuleStartTime="00:02.192"
+			timeWallClock="11:26:53"
+			time="00:02.192"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'RanorexVIPDatabaseTestWebApplicatio1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.ranorex.com']"
+				itempath="/dom[@domain='www.ranorex.com']"
+				fullname="RanorexWebTestRepository.RanorexVIPDatabaseTestWebApplicatio1.Self"
+				id="5b1570cd12f94dff886056292b3e39d8"
+				timeout="30000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RanorexWebTest\CloseAUTWeb.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.888"
+			timeRelativeToTestModuleStartTime="00:09.888"
+			timeWallClock="11:27:01"
+			time="00:09.888"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.6s"
+		durationms="2603"
+		type="root"
+		rid="f3259fd167f91e0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jason Yamada"
+		rxversion="9.5.2.0"
+		host="JYAMADA-L"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5760x1200"
+		timestamp="6/8/2021 11:17:44 AM"
+		timestampiso="2021-06-08T18:17:44"
+		endtime="6/8/2021 11:17:47 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseUATWeb">
+		<detail>
+			CloseUATWeb
+		</detail>
+		<errormessage>
+			The process with id '-1' does not exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.185"
+			timeRelativeToTestModuleStartTime="00:02.185"
+			timeWallClock="11:17:46"
+			time="00:02.185"
+			level="Warn"
+			category="Data"
+			errimg="images_CloseUAT_2f6a57c3\CloseUAT_2f6a57c3_661eb0c2_trace.jpg"
+			errthumb="images_CloseUAT_2f6a57c3\CloseUAT_2f6a57c3_661eb0c2_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>CloseAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.200"
+			timeRelativeToTestModuleStartTime="00:02.200"
+			timeWallClock="11:17:46"
+			time="00:02.200"
+			level="Info"
+			category="Application"
+			errimg="images_CloseUAT_2f6a57c3\CloseUAT_2f6a57c3_661eb0c2_trace.jpg"
+			errthumb="images_CloseUAT_2f6a57c3\CloseUAT_2f6a57c3_661eb0c2_trace_thumb.jpg">
+			<message>
+				Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Ranorex VIP Database Test']"
+				itempath="/form[@title>'Ranorex VIP Database Test']"
+				fullname="RanorexWebTestRepository.RanorexVIPDatabaseTestWebApplicatio.Self"
+				id="0cf03df307904cd3882bf1e319eff8f9"
+				timeout="30000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RanorexWebTest\CloseUATWeb.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.505"
+			timeRelativeToTestModuleStartTime="00:02.505"
+			timeWallClock="11:17:46"
+			time="00:02.505"
+			level="Error"
+			category="Module"
+			errimg="images_CloseUAT_2f6a57c3\CloseUAT_2f6a57c3_394efc71_trace.jpg"
+			errthumb="images_CloseUAT_2f6a57c3\CloseUAT_2f6a57c3_394efc71_trace_thumb.jpg">
+			<message>
+				The process with id '-1' does not exist.<br/>Process with an Id of -1 is not running.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.KillApplication(Int32 processId)
+   at Ranorex.Host.CloseApplication(Int32 processId, Duration gracePeriod)
+   at RanorexWebTest.CloseUATWeb.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RanorexWebTest\CloseUATWeb.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RanorexWebTest\CloseUATWeb.cs"
+				codeline="96"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

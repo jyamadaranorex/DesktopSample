@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.36s"
+		durationms="4360"
+		type="root"
+		rid="5748d1d9040982a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jason Yamada"
+		rxversion="9.5.2.0"
+		host="JYAMADA-L"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5760x1200"
+		timestamp="6/8/2021 11:46:21 AM"
+		timestampiso="2021-06-08T18:46:21"
+		endtime="6/8/2021 11:46:25 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseAUTWeb">
+		<detail>
+			CloseAUTWeb
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.213"
+			timeRelativeToTestModuleStartTime="00:02.213"
+			timeWallClock="11:46:23"
+			time="00:02.213"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.ranorex.com']"
+				itempath="/dom[@domain='www.ranorex.com']"
+				fullname="RanorexWebTestRepository.ApplicationUnderTest.Self"
+				id="ba550f2b5c464598b6eb8cc4615a81bc"
+				timeout="30000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RanorexWebTest\CloseAUTWeb.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.027"
+			timeRelativeToTestModuleStartTime="00:04.027"
+			timeWallClock="11:46:25"
+			time="00:04.027"
+			level="Warn"
+			category="WPF">
+			<message>
+				UI elements in your 'WPF' AUT can&#8217;t be identified because it couldn&#8217;t be instrumented automatically. Restart all Ranorex tools and the AUT with the same privileges, preferably as an administrator.
+
+Exception while initializing WPF proxy: System.Runtime.Remoting.RemotingException: An error occurred while processing the request on the server: System.Security.SecurityException: Cannot open an anonymous level security token.<br/><br/>   at System.Security.Principal.WindowsIdentity.GetCurrentInternal(TokenAccessLevels desiredAccess, Boolean threadOnly)<br/>   at System.Security.Principal.WindowsIdentity.GetCurrent()<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.ServiceRequest(Object state)<br/>The Zone of the assembly that failed was:<br/>MyComputer<br/><br/>Server stack trace: <br/>   at System.Runtime.Remoting.Channels.Ipc.IpcServerHandler.ReadToEndOfHeaders(BaseTransportHeaders headers)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.ReadHeaders()<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)<br/>   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)<br/><br/>Exception rethrown at [0]: <br/>   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)<br/>   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)<br/>   at Ranorex.Plugin.Wpf.IWpfAutomation.StartCacheSession(Int32 threadId)<br/>   at Ranorex.Plugin.WpfAutomationWrapper.get_Wpf()<br/>   at Ranorex.Plugin.WpfFlavor.InjectWpfAutomation(ProcessInfo proc, IDotNetThingy dnproxy)<br/>Process: 'Fuze' (pid 18944)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

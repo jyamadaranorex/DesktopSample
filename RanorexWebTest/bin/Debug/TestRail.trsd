@@ -1,0 +1,119 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "3d25bc96-ae45-4728-ae8a-00e60e41d3bd/46a40ed4-5614-4a16-b64c-c48d09b5cf08",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/3d25bc96-ae45-4728-ae8a-00e60e41d3bd",
+      "Name": "RxDemoApp"
+    },
+    {
+      "Id": "e39d89e5-1184-444f-b25f-0b6f56ea289d/e1402199-58e3-4bdf-8d57-5e1f2d736901",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/e39d89e5-1184-444f-b25f-0b6f56ea289d",
+      "Name": "RanorexWebTest"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P2",
+    "Pid": null,
+    "Name": "RxDemoApp",
+    "BaseUri": "https://jasonyranorex.testrail.io/",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/3d25bc96-ae45-4728-ae8a-00e60e41d3bd",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "RxDemoApp"
+      },
+      "Tr": null
+    },
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/e39d89e5-1184-444f-b25f-0b6f56ea289d",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "RanorexWebTest"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "3d25bc96-ae45-4728-ae8a-00e60e41d3bd/46a40ed4-5614-4a16-b64c-c48d09b5cf08",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/3d25bc96-ae45-4728-ae8a-00e60e41d3bd",
+        "Name": "RxDemoApp"
+      },
+      "Tr": {
+        "Id": "S2",
+        "Pid": "P2",
+        "Name": "RxDemoApp"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "e39d89e5-1184-444f-b25f-0b6f56ea289d/e1402199-58e3-4bdf-8d57-5e1f2d736901",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/e39d89e5-1184-444f-b25f-0b6f56ea289d",
+        "Name": "RanorexWebTest"
+      },
+      "Tr": {
+        "Id": "S3",
+        "Pid": "P2",
+        "Name": "RanorexWebTest"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G2",
+        "Pid": "S2",
+        "Name": "RxDemoApp"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "e1402199-58e3-4bdf-8d57-5e1f2d736901/7528fdf9-7fc2-4514-abe0-0a8a1fd8d4fa",
+        "Pid": "e39d89e5-1184-444f-b25f-0b6f56ea289d/e1402199-58e3-4bdf-8d57-5e1f2d736901",
+        "Name": "Test Cases"
+      },
+      "Tr": {
+        "Id": "G3",
+        "Pid": "S3",
+        "Name": "Test Cases"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "46a40ed4-5614-4a16-b64c-c48d09b5cf08/0a28aa6b-485d-43c2-930c-945cde2bc772",
+        "Pid": "3d25bc96-ae45-4728-ae8a-00e60e41d3bd/46a40ed4-5614-4a16-b64c-c48d09b5cf08",
+        "Name": "TestCase"
+      },
+      "Tr": {
+        "Id": "C2",
+        "Pid": "G2",
+        "Name": "TestCase"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "e1402199-58e3-4bdf-8d57-5e1f2d736901/725e8131-762c-4eed-9a74-ef1a001f346e",
+        "Pid": "e1402199-58e3-4bdf-8d57-5e1f2d736901/7528fdf9-7fc2-4514-abe0-0a8a1fd8d4fa",
+        "Name": "AddUsers"
+      },
+      "Tr": {
+        "Id": "C3",
+        "Pid": "G3",
+        "Name": "AddUsers"
+      }
+    }
+  ]
+}

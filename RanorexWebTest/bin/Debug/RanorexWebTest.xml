@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RanorexWebTest</name>
+    </assembly>
+    <members>
+        <member name="T:RanorexWebTest.CloseAUTWeb">
+             <summary>
+            The CloseAUTWeb recording.
+             </summary>
+        </member>
+        <member name="F:RanorexWebTest.CloseAUTWeb.repo">
+            <summary>
+            Holds an instance of the RanorexWebTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.CloseAUTWeb.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.CloseAUTWeb.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexWebTest.CloseAUTWeb.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.CloseAUTWeb.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexWebTest.CloseAUTWeb.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.CloseAUTWeb.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RanorexWebTest.RanorexWebTestRepository">
+            <summary>
+            The class representing the RanorexWebTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.RanorexWebTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the RanorexWebTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepository.RanorexVIPDatabaseTestWebApplicatio">
+            <summary>
+            The RanorexVIPDatabaseTestWebApplicatio folder.
+            </summary>
+        </member>
+        <member name="T:RanorexWebTest.RanorexWebTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:RanorexWebTest.RanorexWebTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.RanorexWebTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:RanorexWebTest.RanorexWebTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder">
+            <summary>
+            The RanorexVIPDatabaseTestWebApplicatioAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.RanorexWebTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RanorexVIPDatabaseTestWebApplicatio  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.RanorexWebTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="T:RanorexWebTest.StartUATWeb">
+             <summary>
+            The StartUATWeb recording.
+             </summary>
+        </member>
+        <member name="F:RanorexWebTest.StartUATWeb.repo">
+            <summary>
+            Holds an instance of the RanorexWebTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.StartUATWeb.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.StartUATWeb.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexWebTest.StartUATWeb.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexWebTest.StartUATWeb.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexWebTest.StartUATWeb.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RanorexWebTest.StartUATWeb.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

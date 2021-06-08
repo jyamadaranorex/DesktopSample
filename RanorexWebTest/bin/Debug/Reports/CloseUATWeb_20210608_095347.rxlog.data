@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.1s"
+		durationms="8103"
+		type="root"
+		rid="1fd8c87784a842a3"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jason Yamada"
+		rxversion="9.5.2.0"
+		host="JYAMADA-L"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5760x1200"
+		timestamp="6/8/2021 9:53:48 AM"
+		timestampiso="2021-06-08T16:53:48"
+		endtime="6/8/2021 9:53:56 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseUATWeb">
+		<detail>
+			CloseUATWeb
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.131"
+			timeRelativeToTestModuleStartTime="00:02.131"
+			timeWallClock="09:53:51"
+			time="00:02.131"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'RanorexVIPDatabaseTestWebApplicatio.Close'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Ranorex VIP Database Test']/?/?//button[@accessiblename='Close']"
+				itempath="?/?//button[@accessiblename='Close']"
+				fullname="RanorexWebTestRepository.RanorexVIPDatabaseTestWebApplicatio.Close"
+				id="7a5044946c9f4225bffea4179253e336"
+				timeout="60000"
+				codefile="c:\Users\Jason Yamada\OneDrive - Ranorex GmbH\Documents\Ranorex\RanorexStudio Projects\RxDemoApp\RanorexWebTest\CloseUATWeb.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.100"
+			timeRelativeToTestModuleStartTime="00:08.100"
+			timeWallClock="09:53:56"
+			time="00:08.100"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
